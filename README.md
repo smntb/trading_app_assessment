@@ -75,7 +75,7 @@ php artisan serve
 
 7. **Seed database for test assets:**
 ```bash
-php artisan db:seed --class=TestAssetsSeeder
+php artisan db:seed
 ```
 
 The API will be available at `http://127.0.0.1:8000/`
