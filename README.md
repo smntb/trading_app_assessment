@@ -73,6 +73,11 @@ php artisan migrate
 php artisan serve
 ```
 
+7. **Seed database for test assets:**
+```bash
+php artisan db:seed --class=TestAssetsSeeder
+```
+
 The API will be available at `http://127.0.0.1:8000/`
 
 ---
